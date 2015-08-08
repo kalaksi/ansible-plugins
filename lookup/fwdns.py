@@ -29,8 +29,8 @@ from ansible import utils, errors
 class LookupModule(object):
     '''
     Original purpose of this ansible lookup plugin is to help to generate variables for 
-    Shorewall firewall by resolving domain addresses. 
-    Other modules that I found lacked features such as support for IPv6 and creating 
+    Shorewall firewall by resolving domain names. 
+    Other DNS modules that I found lacked features such as support for IPv6 and creating 
     network addresses for subnets. 
     Requires netaddr-module for address transformations.
 
